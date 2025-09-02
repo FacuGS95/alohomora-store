@@ -1,0 +1,279 @@
+@media (max-width: 887px) {
+    .titulot {
+        font-size: 30px;
+        justify-content: center;
+    }
+
+    .subtitulot {
+        font-size: 25px;
+        justify-content: center;
+    }
+
+    .tiendaparrafo1 {
+        font-size: 15px;
+        justify-content: center;
+    }
+
+    .tiendaparrafo2 {
+        font-size: 15px;
+        justify-content: center;
+    }
+
+    .tiendaparrafo3 {
+        font-size: 15px;
+        justify-content: center;
+    }
+
+    .imagen-tienda {
+        width: 100%;
+        height: auto;
+        object-fit: contain;
+    }
+
+    .felixfelicis {
+        width: 100%;
+        height: auto;
+        object-fit: contain;
+    }
+
+    .card-group {
+        grid-area: card-group;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .contenedor3 {
+        grid-template-areas:
+            "titulot"
+            "subtitulot"
+            "tiendaparrafo1"
+            "imagen-tienda"
+            "tiendaparrafo2"
+            "felixfelicis"
+            "tiendaparrafo3"
+            "card-group";
+
+        grid-template-columns: 90%;
+        grid-template-rows: auto;
+    }
+
+}
+
+@media (max-width: 887px) {
+    header {
+        flex-direction: column;
+        background-position: center;
+    }
+
+    header .logo {
+        width: 150px;
+        height: auto;
+    }
+
+    header ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    header a {
+        flex-direction: column;
+        font-size: 25px;
+        width: 10%;
+        justify-content: center;
+        align-items: left;
+        padding-left: 0px;
+        padding-right: 4px;
+    }
+
+    nav navegadorprincipal {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .titulo {
+        font-size: 30px;
+        justify-content: center;
+    }
+
+    .subtitulo {
+        font-size: 25px;
+        justify-content: center;
+    }
+
+    .spotify {
+        font-size: 10px;
+        justify-content: center;
+
+    }
+
+    .contenedor {
+        grid-template-areas:
+            "titulo"
+            "subtitulo"
+            "spotify"
+            "descripcion"
+            "imagen1"
+            "expertos"
+            "imagen2"
+            "expertos2"
+            "footerlista";
+
+        grid-template-columns: 90%;
+        grid-template-rows: auto;
+    }
+}
+
+@media (max-width: 887px) {
+    .tituloc {
+        font-size: 30px;
+        justify-content: center;
+    }
+
+    .subtituloc {
+        font-size: 25px;
+        justify-content: center;
+    }
+
+    .descripcionc {
+        font-size: 15px;
+        justify-content: center;
+    }
+
+    .imagen-curiosidades {
+        width: 100%;
+        height: auto;
+        object-fit: contain;
+    }
+
+    .listacuriosidades {
+        font-size: 15px;
+        justify-content: center;
+    }
+
+    .contenedor4 {
+        grid-template-areas:
+            "tituloc"
+            "subtituloc"
+            "descripcionc"
+            "imagen-curiosidades"
+            "listacuriosidades";
+
+        grid-template-columns: 90%;
+        grid-template-rows: auto;
+    }
+}
+
+@media (max-width: 887px) {
+    .titulocontacto {
+        font-size: 30px;
+        justify-content: center;
+    }
+
+    .subtitulocontacto {
+        font-size: 25px;
+        justify-content: center;
+    }
+
+    .descripcioncontacto {
+        font-size: 15px;
+        justify-content: center;
+    }
+
+    .imagen-contacto {
+        width: 100%;
+        height: auto;
+        object-fit: contain;
+    }
+
+    .formulario {
+        width: 90%;
+        padding: 10px;
+    }
+
+    .contenedor5 {
+        grid-template-areas:
+            "titulocontacto"
+            "subtitulocontacto"
+            "descripcioncontacto"
+            "imagen-contacto"
+            "formulario";
+
+        grid-template-columns: 90%;
+        grid-template-rows: auto;
+    }
+}
+
+@media (max-width: 887px) {
+    .titulou {
+        font-size: 30px;
+        justify-content: center;
+    }
+
+    .subtitulou {
+        font-size: 25px;
+        justify-content: center;
+    }
+
+    .descripcionu {
+        font-size: 15px;
+        justify-content: center;
+    }
+
+    .imagen-ubicacion {
+        width: 100%;
+        height: auto;
+        object-fit: contain;
+    }
+
+    .mapa-ubicacion {
+        width: 100%;
+        height: 300px;
+        object-fit: contain;
+    }
+
+    .contenedor6 {
+        grid-template-areas:
+            "titulou"
+            "subtitulou"
+            "imagen-ubicacion"
+            "descripcionu"
+            "mapa-ubicacion";
+
+        grid-template-columns: 90%;
+        grid-template-rows: auto;
+    }
+}
+
+@media (max-width: 887px) {
+    .contenedor2 {
+        grid-template-areas:
+            "titulopf"
+            "giratiempo"
+            "descripcionpf"
+            "accordion";
+
+        grid-template-columns: 90%;
+        grid-template-rows: auto;
+    }
+
+    .titulopf {
+        font-size: 30px;
+        justify-content: center;
+    }
+
+    .giratiempo {
+        width: 100%;
+        height: auto;
+        object-fit: contain;
+    }
+
+    .descripcionpf {
+        font-size: 15px;
+        justify-content: center;
+    }
+}
