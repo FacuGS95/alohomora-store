@@ -11,7 +11,7 @@ header {
     padding-left: 8px;
     padding-right: 10px;
     width: 100%;
-    text-emphasis-color: #fdc500;
+    text-emphasis-color: $amarillo;
     font-family: 'Yusei Magic', sans-serif;
     font-size: 24px;
 
@@ -21,7 +21,7 @@ header {
 
 header ul {
     list-style: none;
-    color: #000;
+    color: $negro;
     padding: 0;
     margin: 0;
     display: flex;
@@ -31,18 +31,17 @@ header ul {
 }
 
 header a {
-    color: #fdc500;
+    color: $amarillo;
     text-decoration: none;
     padding: 10px 10px;
     font-weight: bold;
     font-size: 30px;
-    text-shadow: 2px 2px 2px #a01b1b;
+    text-shadow: 2px 2px 2px $rojo;
     justify-content: center;
     align-items: center;
     width: 0%;
-    margin: 0%;
+    margin: 0%; }
 
-}
 
 header nav {
     display: flex;
@@ -60,7 +59,7 @@ header nav {
 }
 
 ul li a:hover {
-    color: #ffd300;
+    color: $amarillo2;
     text-decoration: underline;
 }
 

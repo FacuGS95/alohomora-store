@@ -3,17 +3,17 @@
 .footerlista {
     list-style: none;
     grid-area: footerlista;
-    color: #fdc500;
+    color: $amarillo;
     font-size: 20px;
     text-align: center;
     padding: 20px;
-    background-color: #030023;
+    background-color: $azuloscuro;
     /* Fondo oscuro */
 }
 
 footer ul {
     list-style: none;
-    color: #fdc500;
+    color: $amarillo;
     text-decoration: none;
     padding: 10px 20px;
     margin: 0 0px;

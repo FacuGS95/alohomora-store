@@ -23,8 +23,7 @@ body {
         }
 
 
-        /*Contenedor*/
-
+        
         .contenedor {
             display: grid;
             grid-template-areas:
@@ -319,224 +318,368 @@ body {
             align-items: center;
         }
 
-        .contenedor3 img {
-            width: 100%;
-            height: 100%;
-            border-radius: 10px;
-            object-fit: contain;
+        .card:hover {
+            color: $blanco;
+            background-color: $rojo;
+            box-shadow: 0 4px 16px rgba(119, 4, 4, 0.3);
+            transition: background-color 0.3s, color 0.3s, box-shadow 0.3s;
         }
 
-        .contenedor4 {
-            display: grid;
-            grid-template-areas:
+    
 
-                "tituloc tituloc tituloc"
-                "subtituloc subtituloc subtituloc"
-                "descripcionc imagen-curiosidades imagen-curiosidades"
-                "descripcionc imagen-curiosidades imagen-curiosidades"
-                "listacuriosidades listacuriosidades listacuriosidades";
+    .contenedor3 img {
+        width: 100%;
+        height: 100%;
+        border-radius: 10px;
+        object-fit: contain;
+    }
 
-            grid-template-columns: 30% 30% 30%;
+    .contenedor4 {
+        display: grid;
+        grid-template-areas:
 
-            grid-template-rows: 110px 100px 230px 300px 400px;
+            "tituloc tituloc tituloc"
+            "subtituloc subtituloc subtituloc"
+            "descripcionc imagen-curiosidades imagen-curiosidades"
+            "descripcionc imagen-curiosidades imagen-curiosidades"
+            "listacuriosidades listacuriosidades listacuriosidades";
 
-            justify-content: center;
+        grid-template-columns: 30% 30% 30%;
 
-            justify-items: center;
+        grid-template-rows: 110px 100px 230px 300px 400px;
 
-        }
+        justify-content: center;
 
-        .tituloc {
-            grid-area: tituloc;
-            color: $amarillo;
-            font-size: 40px;
-            text-shadow: 2px 2px 4px $blanco;
-            justify-content: center;
-            align-items: center;
-            padding-top: 10px;
-        }
+        justify-items: center;
 
-        .subtituloc {
-            grid-area: subtituloc;
-            color: $amarillo;
-            font-size: 30px;
-            text-shadow: 2px 2px 4px $rojo;
-            justify-content: center;
-            align-items: center;
-        }
+    }
 
-        .imagen-curiosidades {
-            grid-area: imagen-curiosidades;
-            width: 100%;
-            height: auto;
-            object-fit: contain;
-            border-radius: 10px;
-        }
+    .tituloc {
+        grid-area: tituloc;
+        color: $amarillo;
+        font-size: 40px;
+        text-shadow: 2px 2px 4px $blanco;
+        justify-content: center;
+        align-items: center;
+        padding-top: 10px;
+    }
 
-        .listacuriosidades {
-            grid-area: listacuriosidades;
-            color: $amarillo;
-            font-size: 20px;
-            text-align: justify;
-            padding: 10px;
+    .subtituloc {
+        grid-area: subtituloc;
+        color: $amarillo;
+        font-size: 30px;
+        text-shadow: 2px 2px 4px $rojo;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .imagen-curiosidades {
+        grid-area: imagen-curiosidades;
+        width: 100%;
+        height: auto;
+        object-fit: contain;
+        border-radius: 10px;
+    }
+
+    .listacuriosidades {
+        grid-area: listacuriosidades;
+        color: $amarillo;
+        font-size: 20px;
+        text-align: justify;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .descripcionc {
+        grid-area: descripcionc;
+        color: $amarillo;
+        font-size: 20px;
+        text-align: justify;
+        padding: 10px;
+        display: flex;
+    }
+
+    .contenedor4 img {
+        width: 100%;
+        height: 100%;
+        border-radius: 10px;
+        object-fit: contain;
+    }
+
+    .contenedor5 {
+        display: grid;
+        grid-template-areas:
+            "titulocontacto titulocontacto titulocontacto"
+            "subtitulocontacto subtitulocontacto subtitulocontacto"
+            "descripcioncontacto descripcioncontacto imagen-contacto"
+            "formulario formulario formulario"
+            "formulario formulario formulario";
+
+        grid-template-columns: 30% 30% 30%;
+
+        grid-template-rows: 80px 80px 230px 300px 400px;
+
+        justify-content: center;
+
+        justify-items: center;
+
+    }
+
+    .titulocontacto {
+        grid-area: titulocontacto;
+        color: $amarillo;
+        font-size: 40px;
+        text-shadow: 2px 2px 4px $blanco;
+        justify-content: center;
+        align-items: center;
+        padding-top: 10px;
+    }
+
+    .subtitulocontacto {
+        grid-area: subtitulocontacto;
+        color: $amarillo;
+        font-size: 30px;
+        text-shadow: 2px 2px 4px $rojo;
+        justify-content: center;
+        align-items: center;
+        padding-left: 20px;
+    }
+
+    .imagen-contacto {
+        grid-area: imagen-contacto;
+        width: 100%;
+        height: auto;
+        object-fit: contain;
+        border-radius: 10px;
+    }
+
+    .descripcioncontacto {
+        grid-area: descripcioncontacto;
+        color: $amarillo;
+        font-size: 20px;
+        text-align: justify;
+        padding: 10px;
+        display: flex;
+        object-fit: contain;
+    }
+
+    .formulario {
+        grid-area: formulario;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 20px;
+    }
+
+    .contenedor5 img {
+        width: 100%;
+        height: 100%;
+        border-radius: 10px;
+        object-fit: contain;
+    }
+
+    .contenedor6 {
+        display: grid;
+        grid-template-areas:
+            "titulou titulou titulou"
+            "subtitulou subtitulou subtitulou"
+            "descripcionu descripcionu imagen-ubicacion"
+            "mapa-ubicacion mapa-ubicacion mapa-ubicacion";
+
+        grid-template-columns: 30% 30% 30%;
+
+        grid-template-rows: 80px 80px 230px 300px 400px;
+
+        justify-content: center;
+
+        justify-items: center;
+
+    }
+
+    .titulou {
+        grid-area: titulou;
+        color: $amarillo;
+        font-size: 40px;
+        text-shadow: 2px 2px 4px $blanco;
+        justify-content: center;
+        align-items: center;
+        padding-top: 10px;
+    }
+
+    .subtitulou {
+        grid-area: subtitulou;
+        color: $amarillo;
+        font-size: 30px;
+        text-shadow: 2px 2px 4px $rojo;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .descripcionu {
+        grid-area: descripcionu;
+        color: $amarillo;
+        font-size: 20px;
+        text-align: justify;
+        padding: 10px;
+        display: flex;
+    }
+
+    .mapa-ubicacion {
+        grid-area: mapa-ubicacion;
+        width: 100%;
+        height: 400px;
+        border-radius: 10px;
+        object-fit: contain;
+    }
+
+    .imagen-ubicacion {
+        grid-area: imagen-ubicacion;
+        width: 100%;
+        height: auto;
+        object-fit: contain;
+        border-radius: 10px;
+    }
+
+    @media (max-width: 480px) {
+        header {
             display: flex;
             flex-direction: column;
+            background-position: center;
         }
 
-        .descripcionc {
-            grid-area: descripcionc;
-            color: $amarillo;
-            font-size: 20px;
-            text-align: justify;
-            padding: 10px;
-            display: flex;
-        }
-
-        .contenedor4 img {
-            width: 100%;
-            height: 100%;
-            border-radius: 10px;
-            object-fit: contain;
-        }
-
-        .contenedor5 {
-            display: grid;
-            grid-template-areas:
-                "titulocontacto titulocontacto titulocontacto"
-                "subtitulocontacto subtitulocontacto subtitulocontacto"
-                "descripcioncontacto descripcioncontacto imagen-contacto"
-                "formulario formulario formulario"
-                "formulario formulario formulario";
-
-            grid-template-columns: 30% 30% 30%;
-
-            grid-template-rows: 80px 80px 230px 300px 400px;
-
-            justify-content: center;
-
-            justify-items: center;
-
-        }
-
-        .titulocontacto {
-            grid-area: titulocontacto;
-            color: $amarillo;
-            font-size: 40px;
-            text-shadow: 2px 2px 4px $blanco;
-            justify-content: center;
-            align-items: center;
-            padding-top: 10px;
-        }
-
-        .subtitulocontacto {
-            grid-area: subtitulocontacto;
-            color: $amarillo;
-            font-size: 30px;
-            text-shadow: 2px 2px 4px $rojo;
-            justify-content: center;
-            align-items: center;
-            padding-left: 20px;
-        }
-
-        .imagen-contacto {
-            grid-area: imagen-contacto;
-            width: 100%;
+        header .logo {
+            width: 150px;
             height: auto;
-            object-fit: contain;
-            border-radius: 10px;
         }
 
-        .descripcioncontacto {
-            grid-area: descripcioncontacto;
-            color: $amarillo;
-            font-size: 20px;
-            text-align: justify;
-            padding: 10px;
+        header ul {
             display: flex;
-            object-fit: contain;
+            flex-direction: column;
+            align-items: center;
         }
 
-        .formulario {
-            grid-area: formulario;
+        header a {
+            display: flex;
+            flex-direction: column;
+            font-size: 30px;
+            width: 100%;
+            justify-content: center;
+            align-items: flex-start;
+            padding-left: 0px;
+            padding-right: 4px;
+        }
+
+        nav.navegadorprincipal {
             display: flex;
             flex-direction: column;
             align-items: center;
             justify-content: center;
-            padding: 20px;
         }
 
-        .contenedor5 img {
-            width: 100%;
-            height: 100%;
-            border-radius: 10px;
-            object-fit: contain;
-        }
+        .titulo {
 
-        .contenedor6 {
-            display: grid;
-            grid-template-areas:
-                "titulou titulou titulou"
-                "subtitulou subtitulou subtitulou"
-                "descripcionu descripcionu imagen-ubicacion"
-                "mapa-ubicacion mapa-ubicacion mapa-ubicacion";
-
-            grid-template-columns: 30% 30% 30%;
-
-            grid-template-rows: 80px 80px 230px 300px 400px;
-
-            justify-content: center;
-
-            justify-items: center;
-
-        }
-
-        .titulou {
-            grid-area: titulou;
-            color: $amarillo;
-            font-size: 40px;
-            text-shadow: 2px 2px 4px $blanco;
-            justify-content: center;
-            align-items: center;
-            padding-top: 10px;
-        }
-
-        .subtitulou {
-            grid-area: subtitulou;
-            color: $amarillo;
-            font-size: 30px;
-            text-shadow: 2px 2px 4px $rojo;
-            justify-content: center;
-            align-items: center;
-        }
-
-        .descripcionu {
-            grid-area: descripcionu;
-            color: $amarillo;
-            font-size: 20px;
-            text-align: justify;
-            padding: 10px;
             display: flex;
+            font-size: 20px;
+            justify-content: center;
+
         }
 
-        .mapa-ubicacion {
-            grid-area: mapa-ubicacion;
-            width: 100%;
-            height: 400px;
-            border-radius: 10px;
-            object-fit: contain;
+        .subtitulo {
+            display: flex;
+            font-size: 15px;
+            justify-content: center;
         }
 
-        .imagen-ubicacion {
-            grid-area: imagen-ubicacion;
-            width: 100%;
-            height: auto;
-            object-fit: contain;
-            border-radius: 10px;
+        .spotify {
+            display: flex;
+            font-size: 10px;
+            justify-content: center;
         }
 
-        @media (max-width: 480px) {
-            header {
+        .contenedor {
+            grid-template-areas:
+                "titulo"
+                "subtitulo"
+                "spotify"
+                "descripcion"
+                "imagen1"
+                "expertos"
+                "imagen2"
+                "expertos2"
+                "footerlista";
+
+            grid-template-columns: 90%;
+            grid-template-rows: auto;
+        }
+
+        @media (max-width: 887px) {
+            .titulot {
+                font-size: 30px;
+                justify-content: center;
+            }
+
+            .subtitulot {
+                font-size: 25px;
+                justify-content: center;
+            }
+
+            .tiendaparrafo1 {
+                font-size: 15px;
+                justify-content: center;
+            }
+
+            .tiendaparrafo2 {
+                font-size: 15px;
+                justify-content: center;
+            }
+
+            .tiendaparrafo3 {
+                font-size: 15px;
+                justify-content: center;
+            }
+
+            .imagen-tienda {
+                width: 100%;
+                height: auto;
+                object-fit: contain;
+            }
+
+            .felixfelicis {
+                width: 100%;
+                height: auto;
+                object-fit: contain;
+            }
+
+            .card-group {
+                grid-area: card-group;
                 display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                align-items: center;
+                gap: 10px;
+            }
+
+            .contenedor3 {
+                grid-template-areas:
+                    "titulot"
+                    "subtitulot"
+                    "tiendaparrafo1"
+                    "imagen-tienda"
+                    "tiendaparrafo2"
+                    "felixfelicis"
+                    "tiendaparrafo3"
+                    "card-group";
+
+                grid-template-columns: 90%;
+                grid-template-rows: auto;
+            }
+
+        }
+
+        @media (max-width: 887px) {
+            header {
                 flex-direction: column;
                 background-position: center;
             }
@@ -547,23 +690,21 @@ body {
             }
 
             header ul {
-                display: flex;
                 flex-direction: column;
                 align-items: center;
             }
 
             header a {
-                display: flex;
                 flex-direction: column;
-                font-size: 30px;
-                width: 100%;
+                font-size: 25px;
+                width: 10%;
                 justify-content: center;
-                align-items: flex-start;
+                align-items: left;
                 padding-left: 0px;
                 padding-right: 4px;
             }
 
-            nav.navegadorprincipal {
+            nav navegadorprincipal {
                 display: flex;
                 flex-direction: column;
                 align-items: center;
@@ -571,23 +712,19 @@ body {
             }
 
             .titulo {
-
-                display: flex;
-                font-size: 20px;
+                font-size: 30px;
                 justify-content: center;
-
             }
 
             .subtitulo {
-                display: flex;
-                font-size: 15px;
+                font-size: 25px;
                 justify-content: center;
             }
 
             .spotify {
-                display: flex;
                 font-size: 10px;
                 justify-content: center;
+
             }
 
             .contenedor {
@@ -605,289 +742,160 @@ body {
                 grid-template-columns: 90%;
                 grid-template-rows: auto;
             }
-
-            @media (max-width: 887px) {
-                .titulot {
-                    font-size: 30px;
-                    justify-content: center;
-                }
-
-                .subtitulot {
-                    font-size: 25px;
-                    justify-content: center;
-                }
-
-                .tiendaparrafo1 {
-                    font-size: 15px;
-                    justify-content: center;
-                }
-
-                .tiendaparrafo2 {
-                    font-size: 15px;
-                    justify-content: center;
-                }
-
-                .tiendaparrafo3 {
-                    font-size: 15px;
-                    justify-content: center;
-                }
-
-                .imagen-tienda {
-                    width: 100%;
-                    height: auto;
-                    object-fit: contain;
-                }
-
-                .felixfelicis {
-                    width: 100%;
-                    height: auto;
-                    object-fit: contain;
-                }
-
-                .card-group {
-                    grid-area: card-group;
-                    display: flex;
-                    flex-wrap: wrap;
-                    justify-content: center;
-                    align-items: center;
-                    gap: 10px;
-                }
-
-                .contenedor3 {
-                    grid-template-areas:
-                        "titulot"
-                        "subtitulot"
-                        "tiendaparrafo1"
-                        "imagen-tienda"
-                        "tiendaparrafo2"
-                        "felixfelicis"
-                        "tiendaparrafo3"
-                        "card-group";
-
-                    grid-template-columns: 90%;
-                    grid-template-rows: auto;
-                }
-
-            }
-
-            @media (max-width: 887px) {
-                header {
-                    flex-direction: column;
-                    background-position: center;
-                }
-
-                header .logo {
-                    width: 150px;
-                    height: auto;
-                }
-
-                header ul {
-                    flex-direction: column;
-                    align-items: center;
-                }
-
-                header a {
-                    flex-direction: column;
-                    font-size: 25px;
-                    width: 10%;
-                    justify-content: center;
-                    align-items: left;
-                    padding-left: 0px;
-                    padding-right: 4px;
-                }
-
-                nav navegadorprincipal {
-                    display: flex;
-                    flex-direction: column;
-                    align-items: center;
-                    justify-content: center;
-                }
-
-                .titulo {
-                    font-size: 30px;
-                    justify-content: center;
-                }
-
-                .subtitulo {
-                    font-size: 25px;
-                    justify-content: center;
-                }
-
-                .spotify {
-                    font-size: 10px;
-                    justify-content: center;
-
-                }
-
-                .contenedor {
-                    grid-template-areas:
-                        "titulo"
-                        "subtitulo"
-                        "spotify"
-                        "descripcion"
-                        "imagen1"
-                        "expertos"
-                        "imagen2"
-                        "expertos2"
-                        "footerlista";
-
-                    grid-template-columns: 90%;
-                    grid-template-rows: auto;
-                }
-            }
-
-            @media (max-width: 887px) {
-                .tituloc {
-                    font-size: 30px;
-                    justify-content: center;
-                }
-
-                .subtituloc {
-                    font-size: 25px;
-                    justify-content: center;
-                }
-
-                .descripcionc {
-                    font-size: 15px;
-                    justify-content: center;
-                }
-
-                .imagen-curiosidades {
-                    width: 100%;
-                    height: auto;
-                    object-fit: contain;
-                }
-
-                .listacuriosidades {
-                    font-size: 15px;
-                    justify-content: center;
-                }
-
-                .contenedor4 {
-                    grid-template-areas:
-                        "tituloc"
-                        "subtituloc"
-                        "descripcionc"
-                        "imagen-curiosidades"
-                        "listacuriosidades";
-
-                    grid-template-columns: 90%;
-                    grid-template-rows: auto;
-                }
-            }
-
-            @media (max-width: 887px) {
-                .titulocontacto {
-                    font-size: 30px;
-                    justify-content: center;
-                }
-
-                .subtitulocontacto {
-                    font-size: 25px;
-                    justify-content: center;
-                }
-
-                .descripcioncontacto {
-                    font-size: 15px;
-                    justify-content: center;
-                }
-
-                .imagen-contacto {
-                    width: 100%;
-                    height: auto;
-                    object-fit: contain;
-                }
-
-                .formulario {
-                    width: 90%;
-                    padding: 10px;
-                }
-
-                .contenedor5 {
-                    grid-template-areas:
-                        "titulocontacto"
-                        "subtitulocontacto"
-                        "descripcioncontacto"
-                        "imagen-contacto"
-                        "formulario";
-
-                    grid-template-columns: 90%;
-                    grid-template-rows: auto;
-                }
-            }
-
-            @media (max-width: 887px) {
-                .titulou {
-                    font-size: 30px;
-                    justify-content: center;
-                }
-
-                .subtitulou {
-                    font-size: 25px;
-                    justify-content: center;
-                }
-
-                .descripcionu {
-                    font-size: 15px;
-                    justify-content: center;
-                }
-
-                .imagen-ubicacion {
-                    width: 100%;
-                    height: auto;
-                    object-fit: contain;
-                }
-
-                .mapa-ubicacion {
-                    width: 100%;
-                    height: 300px;
-                    object-fit: contain;
-                }
-
-                .contenedor6 {
-                    grid-template-areas:
-                        "titulou"
-                        "subtitulou"
-                        "imagen-ubicacion"
-                        "descripcionu"
-                        "mapa-ubicacion";
-
-                    grid-template-columns: 90%;
-                    grid-template-rows: auto;
-                }
-            }
-
-            @media (max-width: 887px) {
-                .contenedor2 {
-                    grid-template-areas:
-                        "titulopf"
-                        "giratiempo"
-                        "descripcionpf"
-                        "accordion";
-
-                    grid-template-columns: 90%;
-                    grid-template-rows: auto;
-                }
-
-                .titulopf {
-                    font-size: 30px;
-                    justify-content: center;
-                }
-
-                .giratiempo {
-                    width: 100%;
-                    height: auto;
-                    object-fit: contain;
-                }
-
-                .descripcionpf {
-                    font-size: 15px;
-                    justify-content: center;
-                }
-            }
-
-
         }
+
+        @media (max-width: 887px) {
+            .tituloc {
+                font-size: 30px;
+                justify-content: center;
+            }
+
+            .subtituloc {
+                font-size: 25px;
+                justify-content: center;
+            }
+
+            .descripcionc {
+                font-size: 15px;
+                justify-content: center;
+            }
+
+            .imagen-curiosidades {
+                width: 100%;
+                height: auto;
+                object-fit: contain;
+            }
+
+            .listacuriosidades {
+                font-size: 15px;
+                justify-content: center;
+            }
+
+            .contenedor4 {
+                grid-template-areas:
+                    "tituloc"
+                    "subtituloc"
+                    "descripcionc"
+                    "imagen-curiosidades"
+                    "listacuriosidades";
+
+                grid-template-columns: 90%;
+                grid-template-rows: auto;
+            }
+        }
+
+        @media (max-width: 887px) {
+            .titulocontacto {
+                font-size: 30px;
+                justify-content: center;
+            }
+
+            .subtitulocontacto {
+                font-size: 25px;
+                justify-content: center;
+            }
+
+            .descripcioncontacto {
+                font-size: 15px;
+                justify-content: center;
+            }
+
+            .imagen-contacto {
+                width: 100%;
+                height: auto;
+                object-fit: contain;
+            }
+
+            .formulario {
+                width: 90%;
+                padding: 10px;
+            }
+
+            .contenedor5 {
+                grid-template-areas:
+                    "titulocontacto"
+                    "subtitulocontacto"
+                    "descripcioncontacto"
+                    "imagen-contacto"
+                    "formulario";
+
+                grid-template-columns: 90%;
+                grid-template-rows: auto;
+            }
+        }
+
+        @media (max-width: 887px) {
+            .titulou {
+                font-size: 30px;
+                justify-content: center;
+            }
+
+            .subtitulou {
+                font-size: 25px;
+                justify-content: center;
+            }
+
+            .descripcionu {
+                font-size: 15px;
+                justify-content: center;
+            }
+
+            .imagen-ubicacion {
+                width: 100%;
+                height: auto;
+                object-fit: contain;
+            }
+
+            .mapa-ubicacion {
+                width: 100%;
+                height: 300px;
+                object-fit: contain;
+            }
+
+            .contenedor6 {
+                grid-template-areas:
+                    "titulou"
+                    "subtitulou"
+                    "imagen-ubicacion"
+                    "descripcionu"
+                    "mapa-ubicacion";
+
+                grid-template-columns: 90%;
+                grid-template-rows: auto;
+            }
+        }
+
+        @media (max-width: 887px) {
+            .contenedor2 {
+                grid-template-areas:
+                    "titulopf"
+                    "giratiempo"
+                    "descripcionpf"
+                    "accordion";
+
+                grid-template-columns: 90%;
+                grid-template-rows: auto;
+            }
+
+            .titulopf {
+                font-size: 30px;
+                justify-content: center;
+            }
+
+            .giratiempo {
+                width: 100%;
+                height: auto;
+                object-fit: contain;
+            }
+
+            .descripcionpf {
+                font-size: 15px;
+                justify-content: center;
+            }
+        }
+
+
     }
+}
 
 }
