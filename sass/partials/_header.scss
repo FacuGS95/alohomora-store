@@ -1,5 +1,6 @@
 @use "variables" as*;
 
+body {
 header {
     background-image: url(../medios/background.jpg);
     padding: 8px;
@@ -68,4 +69,5 @@ nav navegadorprincipal {
     flex-direction: row;
     align-items: center;
     justify-content: center;
+}
 }
