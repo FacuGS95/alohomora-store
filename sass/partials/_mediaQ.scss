@@ -60,9 +60,6 @@
         grid-template-rows: auto;
     }
 
-}
-
-@media (max-width: 887px) {
     header {
         flex-direction: column;
         background-position: center;
@@ -126,9 +123,7 @@
         grid-template-columns: 90%;
         grid-template-rows: auto;
     }
-}
 
-@media (max-width: 887px) {
     .tituloc {
         font-size: 30px;
         justify-content: center;
@@ -166,9 +161,7 @@
         grid-template-columns: 90%;
         grid-template-rows: auto;
     }
-}
 
-@media (max-width: 887px) {
     .titulocontacto {
         font-size: 30px;
         justify-content: center;
@@ -206,9 +199,7 @@
         grid-template-columns: 90%;
         grid-template-rows: auto;
     }
-}
 
-@media (max-width: 887px) {
     .titulou {
         font-size: 30px;
         justify-content: center;
@@ -247,9 +238,7 @@
         grid-template-columns: 90%;
         grid-template-rows: auto;
     }
-}
 
-@media (max-width: 887px) {
     .contenedor2 {
         grid-template-areas:
             "titulopf"
@@ -276,4 +265,9 @@
         font-size: 15px;
         justify-content: center;
     }
+
 }
+
+
+
+

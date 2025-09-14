@@ -676,10 +676,7 @@ body {
                 grid-template-rows: auto;
             }
 
-        }
-
-        @media (max-width: 887px) {
-            header {
+             header {
                 flex-direction: column;
                 background-position: center;
             }
@@ -742,9 +739,7 @@ body {
                 grid-template-columns: 90%;
                 grid-template-rows: auto;
             }
-        }
 
-        @media (max-width: 887px) {
             .tituloc {
                 font-size: 30px;
                 justify-content: center;
@@ -782,10 +777,8 @@ body {
                 grid-template-columns: 90%;
                 grid-template-rows: auto;
             }
-        }
 
-        @media (max-width: 887px) {
-            .titulocontacto {
+             .titulocontacto {
                 font-size: 30px;
                 justify-content: center;
             }
@@ -822,9 +815,7 @@ body {
                 grid-template-columns: 90%;
                 grid-template-rows: auto;
             }
-        }
 
-        @media (max-width: 887px) {
             .titulou {
                 font-size: 30px;
                 justify-content: center;
@@ -863,10 +854,8 @@ body {
                 grid-template-columns: 90%;
                 grid-template-rows: auto;
             }
-        }
 
-        @media (max-width: 887px) {
-            .contenedor2 {
+             .contenedor2 {
                 grid-template-areas:
                     "titulopf"
                     "giratiempo"
@@ -892,7 +881,11 @@ body {
                 font-size: 15px;
                 justify-content: center;
             }
+
         }
+
+
+       
 
 
     }
